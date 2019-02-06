@@ -34,14 +34,10 @@ img {
     }
 
     .offer {
-    padding: 20px 6.25% 0;
+    padding: 20px 6.25% 138px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #fff;
-    }
-
-    nav {
-        padding-bottom: 138px;
     }
 
   .menu {
@@ -80,7 +76,13 @@ img {
       margin-bottom: 34px;
   }
 
+  .title a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .signature {
+      width: 278px;
       font-size: 30px;
       text-transform: uppercase;
       text-align: center;
@@ -90,6 +92,7 @@ img {
   }
 
   .tagline {
+      width: 220px;
       font-size: 18px;
       font-family: 'Roboto', sans-serif;
       text-align: center;
@@ -162,5 +165,327 @@ img {
     color: #ff4e50;
     margin: 0 auto;
     margin-bottom: 56px;
+    text-decoration: none;
+  }
+
+  @media (min-width: 600px) {
+
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),
+        url(../photo/offer.jpg);
+        background-size: cover;
+        background-position: center;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+    }
+
+    .offer {
+    padding: 38px 0 234px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+  }
+
+  .login-button {
+      display: block;
+      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      padding-top: 10px;
+  }
+
+  .sign-button {
+      display: block;
+      color: #fff;
+      font-size: 14px;
+      border: 2px solid #ffffff;
+      border-width: 2px;
+      border-radius: 32px;
+      text-align: center;
+      padding: 8px 0;
+      margin-left: 20px;
+      width: 86px;
+      text-decoration: none;
+  }
+
+  .title {
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+  }
+
+  .title a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin: 0 50px 152px;
+  }
+
+  .signature {
+      max-width: 492px;
+      font-size: 52px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto 40px;
+      line-height: 1.2;
+      letter-spacing: -1px;
+  }
+
+  .tagline {
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin: 0 auto 40px;
+      font-weight: 300;
+  }
+
+  .find-button {
+      display: block;
+      width: 280px;
+      padding: 12px 20px 10px;
+      border: 0;
+      border-radius: 20px;
+      margin: 0 auto;
+      background-color: #ff4e50;
+  }
+
+  .find-text {
+      font-size: 14px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+  }
+
+  .headline {
+      font-size: 22px;
+      padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+/* MAIN */
+
+  .information {
+      display: flex;
+      flex-direction: column;
+      margin: 0 17.96875% 40px;
+  }
+
+  .card {
+    text-align: center;
+    width: 236px;
+  }
+
+  .card:nth-child(2n+1) {
+    margin-bottom: 60px;
+  }
+
+  .photo {
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+
+  .person {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .comment {
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      padding: 0 10px;
+  }
+}
+
+  .see-more-button {
+      display: block;
+      width: 280px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 12px 20px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    color: #ff4e50;
+    margin: 0 auto 56px;
+    text-decoration: none;
+  }
+
+  @media (min-width: 940px) {
+
+    header {
+        /* background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),
+        url(../photo/offer.jpg); */
+        background-size: cover;
+        background-position: center;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+    }
+
+    .offer {
+    padding: 38px 0 234px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    width: 942px;
+    margin: 0 auto;
+    }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+  }
+
+  .login-button {
+      display: block;
+      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      padding-top: 10px;
+  }
+
+  .sign-button {
+      display: block;
+      color: #fff;
+      font-size: 14px;
+      border: 2px solid #ffffff;
+      border-width: 2px;
+      border-radius: 32px;
+      text-align: center;
+      padding: 8px 0;
+      margin-left: 20px;
+      width: 86px;
+      text-decoration: none;
+  }
+
+  .title {
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+  }
+
+  .title a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin: 0 50px 152px;
+  }
+
+  .signature {
+      max-width: 492px;
+      font-size: 52px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto 40px;
+      line-height: 1.2;
+      letter-spacing: -1px;
+  }
+
+  .tagline {
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin: 0 auto 40px;
+      font-weight: 300;
+  }
+
+  .find-button {
+      display: block;
+      width: 280px;
+      padding: 12px 20px 10px;
+      border: 0;
+      border-radius: 20px;
+      margin: 0 auto;
+      background-color: #ff4e50;
+  }
+
+  .find-text {
+      font-size: 14px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 700;
+  }
+
+  .headline {
+      font-size: 22px;
+      padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+/* MAIN */
+
+  .information {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 17.96875% 40px;
+  }
+
+  .card {
+    text-align: center;
+    width: 220px;
+  }
+
+  .photo {
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+
+  .person {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .comment {
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+  }
+}
+
+  .see-more-button {
+      display: block;
+      width: 280px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 12px 20px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    color: #ff4e50;
+    margin: 0 auto 56px;
     text-decoration: none;
   }
