@@ -189,7 +189,7 @@ img {
   .menu {
     display: flex;
     justify-content: center;
-    font-size: 0;
+    list-style: none;
   }
 
   .login-button {
@@ -274,14 +274,15 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 38px;
   }
 
 /* MAIN */
 
   .information {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
       margin: 0 17.96875% 40px;
   }
 
