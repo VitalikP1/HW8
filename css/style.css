@@ -22,8 +22,6 @@ img {
   height: auto;
 }
 
-@media (max-width: 599px) {
-
     header {
         background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),
         url(../photo/offer.jpg);
@@ -34,7 +32,8 @@ img {
     }
 
     .container {
-      padding: 0 8px;
+      width: 320px;
+      margin: 0 auto;
     }
 
     .offer {
@@ -49,6 +48,7 @@ img {
     justify-content: center;
     font-size: 0;
     padding: 20px 0 114px;
+    list-style: none;
   }
 
   .login-button {
@@ -121,7 +121,7 @@ img {
       display: block;
       width: 280px;
       height: 40px;
-      padding: 13px 20px 10px;
+      padding: 12px 14px 10px;
       border: 0;
       border-radius: 20px;
       margin: 0 auto;
@@ -157,7 +157,9 @@ img {
   }
 
   .card {
+    width: 234px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .photo {
@@ -167,7 +169,7 @@ img {
     padding-bottom: 20px;
   }
 
-  .photo::before {
+  .image::after {
     content: "";
     display: block;
     position: absolute;
@@ -188,7 +190,7 @@ img {
       font-size: 14px;
       font-family: 'Roboto', sans-serif;
       font-weight: 300;
-      padding: 0 50px 30px;
+      padding-bottom: 30px;
   }
 
   .see-more-button {
@@ -213,385 +215,116 @@ img {
     border: 2px solid #ffffff;
   }
 
-}
-
   @media (min-width: 768px) {
 
-    header {
-        background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),
-        url(../photo/offer.jpg);
-        background-size: cover;
-        background-position: center;
-        background-origin: content-box;
-        background-repeat: no-repeat;
+    .container {
+      width: 492px;
     }
 
     .offer {
-    padding: 0 0 234px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #fff;
+      margin: 0 auto;
+    padding-bottom: 234px;
     }
 
   .menu {
     display: flex;
-    list-style: none;
-  }
-
-  .login-button {
-      display: block;
-      font-size: 14px;
-      color: #fff;
-      text-decoration: none;
-      width: 86px;
-      height: 32px;
-      border: 2px solid transparent;
-      line-height: 28px;
-      text-align: center;
-  }
-
-  .sign-button {
-      display: block;
-      color: #fff;
-      font-size: 14px;
-      text-align: center;
-      line-height: 28px;
-      margin-left: 20px;
-      width: 86px;
-      height: 32px;
-      border: 2px solid transparent;
-      text-decoration: none;
-  }
-
-  .button-effect:hover {
-    border: 2px solid #ffffff;
-    border-width: 2px;
-    border-radius: 32px;
+    justify-content: center;
+    padding: 0;
   }
 
   .logo {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
     padding: 38px 0 152px;
   }
 
   .title {
       font-size: 20px;
       text-transform: uppercase;
-      text-align: center;
-  }
-
-  .title a {
-    text-decoration: none;
-    color: #fff;
+      padding-top: 8px;
+      margin: 0;
   }
 
   nav {
       display: flex;
       flex-direction: row-reverse;
-      align-items: center;
       justify-content: space-between;
-      margin: 0 50px;
       width: 670px;
   }
 
   .signature {
-      max-width: 492px;
+      width: 492px;
       font-size: 52px;
-      text-transform: uppercase;
-      text-align: center;
       margin: 0 auto 40px;
-      line-height: 1.2;
-      letter-spacing: -1px;
   }
 
   .tagline {
+      width: 404px;
       font-size: 24px;
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
       margin: 0 auto 40px;
-      font-weight: 300;
   }
 
   .find-button {
-      display: block;
       width: 226px;
-      height: 40px;
-      padding: 12px 10px 10px;
-      border: 0;
-      border-radius: 20px;
-      margin: 0 auto;
-      background-color: #ff4e50;
-  }
-
-  .find-text {
-      font-size: 14px;
-    line-height: 1.2;
-    font-family: "Montserrat";
-      text-decoration: none;
-      color: #fff;
-      font-weight: 700;
-      text-align: center;
-  }
-
-  .find-effect:hover{
-    background-color: #ffffff;
-    color: #ff4e50;
-  }
-
-  .headline {
-      font-size: 22px;
-      padding-top: 70px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 38px;
   }
 
 /* MAIN */
 
-.staff {
-  padding-bottom: 56px;
+
+  .headline {
+    padding-bottom: 38px;
 }
 
   .information {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin: 0 17.96875%;
+      margin: 0 auto;
       padding-bottom: 40px;
-  }
-
-  .card {
-    text-align: center;
-    width: 236px;
   }
 
   .card:nth-child(-n+2) {
     padding-bottom: 60px;
   }
 
-  .photo {
-      margin: 0 auto;
-      padding-bottom: 20px;
-  }
-
-  .person {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    padding-bottom: 20px;
-  }
-
   .comment {
-      font-size: 14px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
       padding: 0 10px;
   }
 
   .see-more-button {
-  display: block;
   width: 192px;
-  font-size: 14px;
-  line-height: 1.2;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  padding: 12px 20px;
-  border: 2px solid #ff4e50;
-  border-radius: 20px;
-  color: #ff4e50;
-  margin: 0 auto;
-  text-decoration: none;
 }
 
-.more-button-effect:hover {
-  color: #fff;
-  background-color: #ff4e50;
-  border: 2px solid #ffffff;
-}
-
-}
+  }
 
   @media (min-width: 940px) {
 
-    header {
-        /* background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)),
-        url(../photo/offer.jpg); */
-        background-size: cover;
-        background-position: center;
-        background-origin: content-box;
-        background-repeat: no-repeat;
+    .container {
+      width: 942px;
+      margin: 0 auto;
     }
-
-  .container {
-  max-width: 942px;
-  margin: 0 auto;
-  }
 
     .offer {
-    padding-bottom: 234px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #fff;
     width: 942px;
-    margin: 0 auto;
     }
 
-  .menu {
-    display: flex;
-    justify-content: center;
-    font-size: 0;
-  }
-
-  .login-button {
-      display: block;
-      font-size: 14px;
-      color: #fff;
-      text-decoration: none;
-      line-height: 28px;
-      width: 86px;
-      height: 32px;
-      border: 2px solid transparent;
-  }
-
-  .sign-button {
-      display: block;
-      color: #fff;
-      font-size: 14px;
-      text-align: center;
-      line-height: 28px;
-      margin-left: 20px;
-      width: 86px;
-      height: 32px;
-      border: 2px solid transparent;
-      text-decoration: none;
-  }
-
-  .title {
-      font-size: 20px;
-      text-transform: uppercase;
-      text-align: center;
-  }
-
-  .title a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  nav {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row-reverse;
-      align-items: center;
-      margin: 0 50px;
-  }
-
-  .signature {
-      max-width: 492px;
-      font-size: 52px;
-      text-transform: uppercase;
-      text-align: center;
-      margin: 0 auto 40px;
-      line-height: 1.2;
-      letter-spacing: -1px;
-  }
-
-  .tagline {
-      font-size: 24px;
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
-      margin: 0 auto;
-      padding-bottom: 40px;
-      font-weight: 300;
-  }
-
-  .find-button {
-      display: block;
-      width: 280px;
-      padding: 12px 20px 10px;
-      border: 0;
-      border-radius: 20px;
-      margin: 0 auto;
-      background-color: #ff4e50;
-  }
-
-  .find-text {
-      font-size: 14px;
-      text-decoration: none;
-      color: #fff;
-      font-weight: 700;
-  }
-
-  .headline {
-      font-size: 22px;
-      padding-top: 70px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
 /* MAIN */
+
+.headline {
+  padding-bottom: 32px;
+}
 
   .information {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      /* margin: 0 17.96875% 40px; */
       margin: 0 auto;
       padding-bottom: 40px;
-  }
-
-  .card {
-    text-align: center;
-    width: 220px;
   }
 
   .card:nth-child(-n+2) {
     padding-bottom: 0px;
   }
-
-  .photo {
-      margin: 0 auto;
-      padding-bottom: 20px;
-  }
-
-  .person {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    padding-bottom: 20px;
-  }
-
-  .comment {
-      font-size: 14px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-  }
-
-  .see-more-button {
-    display: block;
-    width: 280px;
-  font-size: 14px;
-  line-height: 1.2;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  padding: 12px 20px;
-  border: 2px solid #ff4e50;
-  border-radius: 20px;
-  color: #ff4e50;
-  margin: 0 auto;
-  text-decoration: none;
-} 
-
-  .more-button-effect:hover {
-  color: #fff;
-  background-color: #ff4e50;
-  border: 2px solid #ffffff;
+  
 }
 
-}
